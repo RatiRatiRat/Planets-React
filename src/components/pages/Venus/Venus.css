@@ -1,0 +1,131 @@
+div.Venus-Image {
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+div.Venus-Testimonials {
+  color: white;
+  width: 400px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  left: 900px;
+  top: 110px;
+}
+
+h1.Venus {
+  font-size: 45px;
+  width: 263px;
+  height: 104px;
+  letter-spacing: 5px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+p.venus-p {
+  width: 350px;
+  height: 150px;
+}
+
+button.Venus-ovrewiev {
+  width: 350px;
+  height: 48px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button.venus-structure {
+  width: 350px;
+  height: 48px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button.venus-surface {
+  width: 350px;
+  height: 48px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.Venus-Buttons {
+  width: 360px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  left: 900px;
+  top: 420px;
+}
+
+img.Venus-Images {
+  width: 290px;
+  height: 290px;
+  filter: drop-shadow(1px 1px 40px #eda249);
+  border-radius: 100%;
+}
+
+button.Venus-ovrewiev:hover,
+button.venus-structure:hover,
+button.venus-surface:hover {
+  background-color: #eda249;
+  color: white;
+  transition: background-color 0.8s ease;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Venus-Images {
+  animation: rotate 17s infinite;
+}
+
+div.Venus-Footer {
+  width: 100%;
+  height: 100px;
+
+  margin-top: 135px;
+  display: flex;
+}
+
+div.venus-info {
+  width: 150px;
+  height: 70px;
+  background-color: transparent;
+  margin-left: 162px;
+  justify-content: center;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid white;
+}
+
+h4.Venus-H4 {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+span.Venus-Rotation {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}

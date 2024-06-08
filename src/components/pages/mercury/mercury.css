@@ -1,0 +1,134 @@
+
+
+div.Mercury-Image{
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+div.Mercury-Testimonials{
+    color: white;
+    width: 400px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 110px;
+}
+
+h1.Mercury{
+    font-size: 45px;
+    width: 263px;
+    height: 104px;
+    letter-spacing: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+p.mercury-p{
+    width: 350px;
+    height: 150px;
+}
+
+button.mercury-ovrewiev{
+    width: 350px;
+    height: 48px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button.mercury-structure{
+    width: 350px;
+    height: 48px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button.mercury-surface{
+    width: 350px;
+    height: 48px;
+    border: 2px solid white;
+   background-color: transparent;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.Mercury-Buttons{
+    width: 360px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 420px;
+}
+
+img.Mercury-Images{
+    width: 290px;
+    height: 290px;
+    filter:drop-shadow( 1px 1px 40px  #419EBB);
+    border-radius: 100%;
+    
+}
+
+/* Apply hover effect */
+button.mercury-ovrewiev:hover,
+button.mercury-structure:hover,
+button.mercury-surface:hover {
+    background-color: #419EBB;
+    color: white;
+    transition: background-color 0.8s ease;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply the rotation animation to an element */
+.Mercury-Images {
+    animation: rotate 17s infinite ; /* Change the duration and timing function as needed */
+}
+
+div.Mercury-Footer{
+    width: 100%;
+    height: 100px;
+    
+    margin-top: 135px;
+    display: flex;
+    
+}
+
+div.mercury-info{
+    width: 150px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 162px;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+h4.Mercury-H4{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+span.Mercury-Rotation{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
